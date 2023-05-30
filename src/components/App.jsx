@@ -29,6 +29,8 @@ export const App = () => {
           return prevState + 1;
         });
         break;
+      default:
+        return;
     }
   };
 
