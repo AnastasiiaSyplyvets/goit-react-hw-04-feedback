@@ -1,0 +1,40 @@
+.sectionTitle{
+    font-size: 26px;
+    text-align:center;
+
+    color:rgb(0, 71, 179);
+}
+
+.list{
+    list-style: none;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+
+
+    margin-top: 50px;
+}
+
+.listBtn {
+    width: 100px;
+    height:40px;
+
+    border-radius: 10px;
+    border: none;
+     border-color: rgb(230, 240, 255); 
+
+
+    font-size: 14px;
+    font-weight: 600;
+
+    background-color: rgb(128, 179, 255);
+    box-shadow: 0px 16px 24px 0px rgba(69, 77, 163, 1);
+
+    cursor:pointer;
+}
+
+.listBtn:hover {
+    transform: scale(1.3);
+}
