@@ -1,8 +1,8 @@
 import React from 'react';
-import Counter from './Statistic';
-import { FeedbackOptions } from './FeedbackOptions';
-import { Section } from './Section';
-import { Notification } from './message';
+import Counter from './Statistic/Statistic';
+import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions.jsx';
+import { Section } from './Section/Section.jsx';
+import { Notification } from './message/message.jsx';
 import { useState } from 'react';
 
 export const App = () => {
